@@ -14,7 +14,9 @@ const Profile = () => {
     <div style={styles.container}>
       
       <h1>Your Username : {user?.name}</h1>
-      <p>Your email : {user?.email}</p>
+      <div style={styles.gap}></div>
+
+      <h2>Your email : {user?.email}</h2>
     </div>
   );
 };
@@ -25,8 +27,11 @@ const styles = {
   container: {
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
+    
     justifyContent: "center",
     height: "100vh",
+  },
+  gap: {
+    marginTop: "10px",
   },
 };
