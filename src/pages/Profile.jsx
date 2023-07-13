@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../main";
+import { Navigate } from "react-router-dom";
 import Loader from "../components/Loader";
 
 const Profile = () => {
