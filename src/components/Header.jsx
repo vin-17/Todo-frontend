@@ -30,7 +30,7 @@ const Header = () => {
     <nav className="header">
       <div >
         <img src={todoIcon} />
-        <h2>Todo App.</h2>
+        <h2>Todo App</h2>
       </div>
       <article>
         <Link to={"/"}>Home</Link>
