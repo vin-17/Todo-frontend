@@ -12,8 +12,9 @@ const Profile = () => {
     <Loader />
   ) : (
     <div>
-      <h1>{user?.name}</h1>
-      <p>{user?.email}</p>
+      {/* <h1>Hello</h1> */}
+      <h1>Your Username : {user?.name}</h1>
+      <p>Your email : {user?.email}</p>
     </div>
   );
 };
